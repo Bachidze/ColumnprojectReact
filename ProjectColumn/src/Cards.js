@@ -5,7 +5,8 @@ export const data = [
         desc: 'Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.',
         button: 'Learn More',
         hover: 'orange',
-        backgroundColor: 'portoxlisferi'
+        backgroundColor: '#E28625',
+        buttonColor: '#E28625'
     },
     {
         name: 'SUVS',
@@ -13,7 +14,8 @@ export const data = [
         button: 'Learn More',
         imgUrl: '/assets/Meoremanqana.svg',
         hover: 'aqua',
-        backgroundColor: 'cisferi'
+        backgroundColor: '#006971',
+        buttonColor: '#006971'
     },
     {
         name: 'Luxury',
@@ -21,6 +23,7 @@ export const data = [
         button: 'Learn More',
         imgUrl: '/assets/Mesamemanqana.svg',
         hover: 'blue',
-        backgroundColor: 'lurji'
+        backgroundColor: '#004140',
+        buttonColor: '#006971'
     }
 ]

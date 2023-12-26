@@ -14,6 +14,7 @@ function App() {
       button={el.button}
       hover={el.hover}
       backgroundColor={el.backgroundColor}
+      buttonColor={el.buttonColor}
       />
     ))}
     </div>

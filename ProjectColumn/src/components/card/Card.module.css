@@ -59,36 +59,36 @@ body{
     width: 146px;
     height: 48px;
     border-radius: 30px;
+    background-color: white;
 }
+
 
 .orange:hover{
-    background-color: #E28625;
+    background-color: #e9aa66;
     transition: 1s;
     border: 2px solid white;
     color: white;
+    margin-left: 50px;
+    
 }
 .aqua:hover{
-    background-color: #006971;
+    background-color: #05aab5;
     transition: 1s;
     border: 2px solid white;
     color: white;
+    margin-left: 50px;
 }
 .blue:hover{
-    background-color: #004140;
+    background-color: #1d9d9b;
     transition: 1s;
     border: 2px solid white;
+    margin-left: 50px;
     color: white;
 }
 
-.portoxlisferi{
-    background-color: #E28625;
-}
-.cisferi{
-    background-color: #006971;
-    border-radius: 0;
-}
-.lurji{
-    background-color: #004140;
-    border-radius: 0 0 8px 8px;
-}
+
+
+
+
+
 
