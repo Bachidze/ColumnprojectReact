@@ -1,20 +1,20 @@
 import React from 'react'
-import './Card.css'
+import style from './Card.module.css'
 
 const Card = ({
     hover,
     name = 'error',
     imgUrl,
     desc ='error',
-    backgroundcolor,
+    backgroundColor,
     button = 'error'}) => {
 
   return (
-    <div className={`card ${backgroundcolor}`}>
-        <img src={imgUrl} alt="pirveli Manqanis Photo" />
-        <h1>{name}</h1>
-        <p>{desc}</p>
-        <button className={`${hover}`}>{button}</button>
+    <div style={{backgroundColor:backgroundColor}} className={`${style.card}`}>
+        <img className={style.img} src={imgUrl} alt="pirveli Manqanis Photo" />
+        <h1 className={style.h1}>{name}</h1>
+        <p className={style.p}>{desc}</p>
+        <button className={`${style.button} ${style[hover]}`}>{button}</button>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import Card from './components/card/Card'
 
 function App() {
   return (
-    <>
+    <div className='flex'>
     {data.map(( el , i )=> (
       <Card
       key = {i}
@@ -13,10 +13,10 @@ function App() {
       desc={el.desc}
       button={el.button}
       hover={el.hover}
-      backgroundcolor={el.backgroundcolor}
+      backgroundColor={el.backgroundColor}
       />
     ))}
-    </>
+    </div>
   )
 }
 

@@ -13,7 +13,7 @@ export const data = [
         button: 'Learn More',
         imgUrl: '/assets/Meoremanqana.svg',
         hover: 'aqua',
-        backgroundcolor: 'cisferi'
+        backgroundColor: 'cisferi'
     },
     {
         name: 'Luxury',
@@ -21,6 +21,6 @@ export const data = [
         button: 'Learn More',
         imgUrl: '/assets/Mesamemanqana.svg',
         hover: 'blue',
-        backgroundcolor: 'lurji'
+        backgroundColor: 'lurji'
     }
 ]
