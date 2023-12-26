@@ -54,3 +54,34 @@
     height: 48px;
     border-radius: 30px;
 }
+
+.orange:hover{
+    background-color: #E28625;
+    transition: 1s;
+    border: 2px solid white;
+    color: white;
+}
+.aqua:hover{
+    background-color: #006971;
+    transition: 1s;
+    border: 2px solid white;
+    color: white;
+}
+.blue:hover{
+    background-color: #004140;
+    transition: 1s;
+    border: 2px solid white;
+    color: white;
+}
+
+.portoxlisferi{
+    background-color: #E28625;
+}
+.cisferi{
+    background-color: #006971;
+    border-radius: 0;
+}
+.lurji{
+    background-color: #004140;
+    border-radius: 0 0 8px 8px;
+}
